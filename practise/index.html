@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Youtube Clone</title>
+  <style>
+    p{
+      font-family: arial;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+    .video-title{
+      font-size:20px;
+      font-weight: bold;
+      width: 350px;
+      line-height: 30px;
+      margin-bottom: 5px;
+    }
+    .video-stats{
+      font-size: 14px;
+      color: rgb(96, 96, 96);
+      margin-bottom: 20px;
+    }
+    .video-author{
+      font-size: 14px;
+      color:  rgb(96, 96, 96);
+      margin-bottom: 20px;
+    }
+    .video-description{
+      font-size: 14px;
+      color:rgb(96, 96, 96);
+      width: 280px;
+      line-height: 24px;
+      margin-bottom: 70px;
+    }
+    .apple-text{
+      font-size: 14px;
+      background-color: rgb(227, 65, 64);
+      color: white;
+      padding: 18px 0;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    a{
+      color: white;
+      text-decoration: none;
+    }
+    .shop-link{
+      cursor: pointer;
+    }
+    .shop-link:hover{
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <p class="video-title">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+  <p class="video-stats">3.4M views &#183; 6 months ago</p>
+  <p class="video-author">Marques Brownlee &#10003;</p>
+  <p class="video-description">Talking Tech and AI on the heels of Google I/O. Also a daily driver phone reveal from Google's CEO. Shoutout to Sundar!</p>
+  <p class="apple-text">Shop early for the best selection of holiday fovourites. <span class="shop-link">Show Now &#62;</span></p>
+
+  <div style="display: grid;
+  grid-template-columns: 100px 1fr; margin-bottom: 20px;">
+    <div style="background-color: lightblue; ">100px</div>
+    <div style="background-color: lightcoral;">1fr</div>
+  </div>
+  <div style="display: grid;
+    grid-template-columns: 100px 1fr;">
+    <div style="background-color: lightblue; ">100px</div>
+    <div style="background-color: #f08080;">1fr <p>text</p><p>another text</p></div>
+  </div>
+
+  <div style="display: grid;
+    grid-template-columns: 100px 1fr 2fr; margin-top: 20px;">
+    <div style="background-color: lightblue; ">100px</div>
+    <div style="background-color: lightcoral;">1fr(fr means free space)</div>
+    <div style="background-color: lightblue; ">2fr</div>
+  </div>
+
+  <div style="display: flex;
+  flex-direction: row; margin-top: 30px;
+  height: 70px; border: 1px solid gray;
+  justify-content:space-evenly;">
+    <div style="background-color: lightblue; width: 100px;">100px</div>
+    <div style="background-color: lightpink;width: 100px;">100px</div>
+    <div style="background-color:lightblue;width: 100px;">100px</div>
+  </div>
+
+
+
+</body>
+</html>
